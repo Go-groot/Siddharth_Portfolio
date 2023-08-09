@@ -14,7 +14,7 @@ const Projects = () => {
             techStack: ['ReactJS', 'Tailwind'],
             github: 'https://github.com/Go-groot/Siddharth_Portfolio',
             link: 'https://siddharth-portfolio-two.vercel.app/',
-            image:'../public/porfolio.png'
+            image:'https://media.discordapp.net/attachments/1086640840945975350/1138871432256962682/porfolio.png?width=1422&height=701'
         },
         {
             title: 'Crypto-Watcher',
@@ -23,7 +23,7 @@ const Projects = () => {
             techStack: ['ReactJS', 'Tailwind', 'Chakra UI','APIs','Fetching'],
             github: 'https://github.com/Go-groot/CryptoWatcher',
             link:'https://crypto-watcher-indol.vercel.app/',
-            image:'../public/crypto.png'
+            image:'https://media.discordapp.net/attachments/1086640840945975350/1138871157307748505/crypto.png?width=1440&height=695'
         },
         {
             title: 'Pokeverse',
@@ -32,7 +32,7 @@ const Projects = () => {
             techStack: ['ReactJS', 'Tailwind', 'Pokemon API'],
             github: 'https://github.com/Go-groot/Pokeverse',
             link: 'https://pokeverse-hlnqef1a9-go-groot.vercel.app/',
-            image:'../public/pokemon.png'
+            image:'https://media.discordapp.net/attachments/1086640840945975350/1138871326430478407/pokemon.png?width=1440&height=696'
         },
     ]   
 
