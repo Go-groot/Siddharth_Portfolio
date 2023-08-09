@@ -4,7 +4,7 @@ import {FiExternalLink } from 'react-icons/fi'
 
 const Projects = () => {
 
-    const image = 'https://images.unsplash.com/photo-1563986768817-257bf91c5753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1210&q=80'
+    // const image = 'https://images.unsplash.com/photo-1563986768817-257bf91c5753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1210&q=80'
 
     const projects = [
         {
@@ -12,7 +12,8 @@ const Projects = () => {
             description:
             'An interactive portfolio to showcase my work and contact details for potential employers',
             techStack: ['ReactJS', 'Tailwind'],
-            link: 'https://timberwolves.com/canvas',
+            github: 'https://github.com/Go-groot/Siddharth_Portfolio',
+            link: 'https://siddharth-portfolio-two.vercel.app/',
             image:'../public/porfolio.png'
         },
         {
