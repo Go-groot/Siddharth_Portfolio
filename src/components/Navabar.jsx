@@ -5,7 +5,7 @@ import {IoIosMenu} from 'react-icons/io';
 const Navabar = () => {
 
   return (
-    <nav className='fixed z-40 flex w-full h-[4rem] items-center justify-between bg-[#0B192E] py-6 px-[40px]'>
+    <nav className='fixed z-40 flex w-full h-[4rem] items-center justify-between top-[-1px] bg-[#0B192E] py-6 px-[40px]'>
         <div className=" text-[#05BFDB] text-md font-mont" style={{fontSize: 'clamp(14px, 5vw, 24px)',}}>
             <TbAlpha />
         </div>
