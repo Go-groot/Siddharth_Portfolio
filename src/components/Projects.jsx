@@ -27,8 +27,7 @@ const Projects = () => {
         },
         {
             title: 'Pokeverse',
-            description:
-            'Pokemon API data organized in a beautiful UI. Dynamic routes. Sleek animations.',
+            description:'Pokemon API data organized in a beautiful UI. Dynamic routes. Sleek animations.',
             techStack: ['ReactJS', 'Tailwind', 'Pokemon API'],
             github: 'https://github.com/Go-groot/Pokeverse',
             link: 'https://pokeverse-hlnqef1a9-go-groot.vercel.app/',
@@ -57,7 +56,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className='relative aspect-video z-3 rounded-xl'>
-                                    <a href="/" target='_blank'>
+                                    <a href={project.link} target='_blank'>
                                         <img src={project.image} alt={project.title} />
                                     </a>
                                 </div>
@@ -100,7 +99,7 @@ const Projects = () => {
                             {i%2 !== 0 ? (
                                 <div className='relative col-span-6 aspect-video z-3 rounded-xl'>
                                     <div className='bg-[#05BFDB] h-full w-full rounded-xl'>
-                                        <a href='/'>
+                                        <a href={project.link} target='_blank'>
                                             <img src={project.image} alt='image' className='h-full  w-full hover:translate-x-2 hover:translate-y-2 transition ease-in-out rounded-lg'/>
                                         </a>                                    
                                     </div>                                    
@@ -117,7 +116,7 @@ const Projects = () => {
                                     </div>
                                     {i%2 !== 0 ? (
                                         <div className='relative col-span-6 aspect-video z-3 rounded-xl'>
-                                            <a href='/'>
+                                            <a href='/' target='_blank'>
                                                 <img src={project.image} alt='image' fill className='absolute hover:translate-x-2 hover:translate-y-2 transition ease-in-out rounded-lg'/>
                                             </a>
                                             <div className='bg-[#05BFDB] h-full w-full rounded-xl' />                                    
@@ -155,7 +154,7 @@ const Projects = () => {
                             {i%2 === 0 ? (
                                 <div className='relative col-span-6 aspect-video z-3 rounded-xl'>
                                     <div className='bg-[#05BFDB] h-full w-full rounded-xl'>
-                                        <a href='/'>
+                                        <a href={project.link} target='_blank'>
                                             <img src={project.image} alt='image' className='h-full w-full hover:-translate-x-2 hover:-translate-y-2 transition ease-in-out rounded-lg'/>
                                         </a>                                    
                                     </div>                                    
