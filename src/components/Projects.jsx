@@ -33,6 +33,14 @@ const Projects = () => {
             link: 'https://pokeverse-hlnqef1a9-go-groot.vercel.app/',
             image:'https://media.discordapp.net/attachments/1086640840945975350/1138871326430478407/pokemon.png?width=1440&height=696'
         },
+        {
+            title: 'Shop With Cart',
+            description:'An ecommerse shop with cart functionality including adding and removing products and state management',
+            techStack: ['ReactJS', 'Tailwind', 'Context API'],
+            github: 'https://github.com/Go-groot/ShopWithCart',
+            link: 'https://shop-with-cart.vercel.app/',
+            image:'https://media.discordapp.net/attachments/1086640840945975350/1142438976813277297/Screenshot_2023-08-19_181027.png?width=1410&height=701'
+        },
     ]   
 
   return (
