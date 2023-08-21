@@ -23,7 +23,7 @@ const Navabar = () => {
               <div className="navLinks"><span className='text-[#05BFDB] mr-1'>04.</span>Contact</div>
             </a>
         </div>
-        <div className='hamburger md:hidden text-2xl text-[#05BFDB]'><IoIosMenu /></div>
+        <div className='hamburger hidden text-2xl text-[#05BFDB]'><IoIosMenu /></div>
     </nav>
   )
 }
